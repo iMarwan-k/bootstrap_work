@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<title>Contact</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/jquery.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+  </head>
+  <body>
+  	
+  	<div class="container-fluid myBanner">
+  		<div class="container">
+	  		<div class="row img-text">
+	  			<div class="col-md-6">
+				  	<img id="logo-main" src="img/logo.png" alt="Logo Thing main logo">
+			  	</div>
+
+			  	<div class="col-md-6 visible-lg-block visible-md-block">
+			  		<h1 id="text">Creating Things...and Stuff</h1>
+			  	</div>
+	  		</div>
+  		</div>
+  	</div>
+
+  	<div class="container-fluid navbar-default myNav">
+  		<div class="container">
+  			<div class="row">
+  				<nav class="navbar-static-top">
+  					<div id="logo-collapse">
+	  					<img id="collapseImg" src="img/logo.png" alt="Logo Thing main logo">
+					    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					        <img src="img/hamburger_menu.png">
+					    </button>
+  					</div>
+	  				
+
+				    <div class="collapse navbar-collapse" id="myNavbar">
+				      	<ul class="nav navbar-nav">
+					        <li><a href="#">WHO WE ARE</a></li>
+				  			<li><a href="#">WHAT WE DO</a></li>
+				  			<li><a href="#">WHAT KIND OF THINGS</a></li>
+				  			<li><a href="#">WHAT SORT OF STUFF</a></li>
+				  			<li><a href="#" class="active">CONTACT</a></li>
+				      </ul>
+		    		</div>
+	  			</nav>	
+  			</div>
+  		</div>		
+  	</div>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>Contact Us</h1>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-8 visible-lg-block visible-md-block" id="col1">
+				<img src="img/contact_image.jpg" width="102%" >
+				<h4>
+					XYZ Corp creats all kinds of things. We also create different sorts of stuff.Wouldn't you like to know more?!
+				</h4>
+				<h4>
+					Please complete the form to the right and we'll be in touch.
+				</h4>
+			</div>
+
+			<div class="col-md-4" id="col2">
+				<form>
+				  	<div class="form-group">
+					    <div class="row">
+					     		<label for="firstName" id="form-label">First Name</label>	
+					    </div>
+				    
+					    <div class="row">
+					    		<input type="text" class="form-control" id="firstName">	
+					    </div>
+					</div>
+
+				    <div class="form-group">
+				      <div class="row">
+					     	<label for="lastName" id="form-label">last Name</label>	
+					    </div>
+				    
+					    <div class="row">
+					    	<input type="text" class="form-control" id="lastName">	
+					    </div>
+				    </div>
+
+				    <div class="form-group">
+				    	<div class="row">
+				    		<label for="compnay" id="form-label">Company</label>	
+				    	</div>
+
+				    	<div class="row">
+				    		<input type="text" class="form-control" id="compnay" >	
+				    	</div>
+				    </div>
+
+				    <div class="form-group">
+				    	<div class="row">
+				    		<label for="interested" id="form-label">I am interested in:</label>	
+				    	</div>
+
+						<div class="row">
+				    		<div class="radio">
+				  				<label for="raidoOpt" id="form-label"><input type="radio" name="optradio">Things</label>
+							</div>
+				    	</div>
+
+				    	<div class="row">
+				    		<div class="radio">
+						  		<label for="raidoOpt" id="form-label"><input type="radio" name="optradio">Stuff</label>
+				    		</div>
+				    	</div>
+					</div>
+
+					<div class="row">
+						<!-- Button trigger modal -->
+				    	<button type="button" class="btn btn-lg" id="submit-botton" data-toggle="modal" data-target="#myModal">
+				    		SUBMIT
+				    	</button>
+
+				    	<!-- Modal -->
+				    	<div class="modal fade" id="myModal" role="dialog" aria-labelledby="modalLabel">
+				    		<div class="modal-dialog">
+				    			<div class="modal-content">
+				    				<div class="modal-header">
+							          <h4 class="modal-title" id="modalLabel">Thank You</h4>
+							        </div>
+
+							        <div class="modal-body">
+							          <p>Thank you for submiting the form.</p>
+							        </div>
+
+							        <div class="modal-footer">
+							          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							        </div>
+				    			</div>
+				    		</div>
+				    	</div>
+
+				    </div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- this is the footer -->
+
+		
+	</div>
+  	<div class="navbar navbar-default navbar-fixed-bottom myFooter">
+  		<div class="container">
+  			<p>Who We Are | What We Do | What Kind Of Things | What Sort Of Stuff | CONTACT</p>
+  			<p>Copyright &copy; 2016 XZY Corp. All rights reserved</p>
+  		</div>
+  	</div>
+
+  	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+  </body>
+</html>
