@@ -1,0 +1,88 @@
+.navList a:link, a:visited{
+  color: #003E74 !important;
+}
+
+.nav .active{
+	background-color: #003E74 !important;
+	color: white !important;
+}
+
+.myBanner{
+	background-color: #003E74;
+}
+
+#text{
+	color: white;
+	float: right;
+}
+#logo-collapse{
+	display: none;
+}
+#col1{
+	padding-right: 5%;
+}
+
+
+#col2{
+	border: 0.5px solid gray;	
+	padding: 3%;
+}
+
+.myForm{
+	border: 0.5px solid gray;
+}
+
+#form-label{
+	font-size: 1.3em;
+}
+
+#submit-botton{
+	background-color: #628000;
+	border: 0;
+	border-radius: 0;
+	width: 100%;
+	color: white;
+}
+
+.modal-body{
+	background-color: white;
+}
+.myFooter{
+	color: gray;
+	text-align: center;
+}
+
+
+@media only screen and (max-width: 766px) {
+	
+	.navList a:link, a:visited{
+  		color: #003E74 !important;
+	}
+
+	.nav .active{
+	background-color: #003E74 !important;
+	color: white !important;
+	}
+
+	.img-text{
+		display: none;
+	}
+	#logo-collapse{
+		background-color: #003E74;
+		display: inline-block;
+	}
+
+	#collapseImg{
+		width: 80%;
+	}
+
+	#col2{
+	border: 0.5px solid gray;	
+	padding: 5%;
+	margin: 3%;
+}
+
+}
+
+
+
